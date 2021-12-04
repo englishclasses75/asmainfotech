@@ -1,0 +1,13 @@
+body {
+  min-height: 200vh;
+}
+
+.navbar-light {
+  transition: 1000ms ease;
+  background: transparent;
+}
+
+.navbar-light.scrolled {
+  background: rgba(255,255,255,0.7);
+}
+
